@@ -17,7 +17,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       backgroundColor: Colors.red,
       appBar: AppBar(
-        title: const Text("Dicee"),
+        title: const Text("Diceee"),
         backgroundColor: Colors.red,
       ),
       body: Center(
@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      leftDiceNum = Random().nextInt(6)+1;
+                      leftDiceNum = Random().nextInt(6) + 1;
                     });
                   },
                   style:
@@ -41,8 +41,8 @@ class _HomeState extends State<Home> {
               child: TextButton(
                 onPressed: () {
                   setState(() {
-                    leftDiceNum = Random().nextInt(6)+1;
-                    rightDiceNum = Random().nextInt(6)+1;
+                    leftDiceNum = Random().nextInt(6) + 1;
+                    rightDiceNum = Random().nextInt(6) + 1;
                   });
                 },
                 style:
